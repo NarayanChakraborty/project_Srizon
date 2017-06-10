@@ -11,11 +11,16 @@
 /* ==========================================================================
    1:Basic CSS Section
    2:header CSS Section
-   3:header CSS Section
-   4:header CSS Section
-   5:header CSS Section
-   6:header CSS Section
-   7:header CSS Section
+   3:Service CSS Section
+   4:Portfolio CSS Section
+   5:Feature CSS Section
+   6:Video CSS Section
+   7:Skill CSS Section
+   8:Team CSS Section
+   9:Client Section 
+   10:blog Section
+   11:Sub-Footer Section
+   12:Footer Section
    ========================================================================== */   
 /* ==========================1:Basic CSS Section=================================*/
 .no-padding{
@@ -111,6 +116,7 @@ p{
     padding: 13px 25px;
     display: inline-block;
     border-radius: 30px;
+    text-decoration: none;
    
 }
 
@@ -119,8 +125,9 @@ p{
     
 }
 
+
 /* ==========================Header CSS Section End=================================*/
-/* ==========================Service CSS Section Start=================================*/
+/* ==========================3:Service CSS Section Start=================================*/
 #service-id {
 	background-color: #f4f5f7;
 }
@@ -154,7 +161,7 @@ margin: 0px 0 50px 0px;
 }
 
 /* ==========================Header CSS Section End=================================*/
-/* ==========================Portfolio CSS Section Start=================================*/
+/* ==========================4:Portfolio CSS Section Start=================================*/
 .portfolio-header{
     margin:40px 0 20px 0;
     padding-top:20px;
@@ -183,12 +190,13 @@ color: #949597;
     background-color: #fff;
     text-transform: uppercase;
     margin:25px 0 30px 0;
+    text-decoration: none;
 }
 .project-btn{
     margin:2% 0 5% 0;
 }
 /* ==========================Portfolio CSS Section End=================================*/
-/* ==========================Portfolio CSS Section Start=================================*/
+/* ==========================5:Feature CSS Section Start=================================*/
 .features {
     background-color: #f4f5f7;
     padding-bottom: 60px;
@@ -215,9 +223,9 @@ color: #949597;
     -moz-box-shadow: 5px 15px 32px -1px rgba(181, 181, 181, 1);
     box-shadow: 5px 15px 32px -1px rgba(181, 181, 181, 1);
 }
-.feature-icon  i{
-	float: left;
-	margin: 61px 20px;
+.feature-icon{
+	
+	margin: 61px 15px;
 	font-size: 35px;
 	border: 1px solid #423b88;
 	border-radius: 50%;
@@ -233,11 +241,12 @@ color: #949597;
     color:#949597;
 }
 .feature-des h3 {
-    padding-top: 30px;
+    padding-top: 5%;
     color:#423b88;
+    
 }
-/* ==========================Portfolio CSS Section End=================================*/
-/* ==========================Video CSS Section Start=================================*/
+/* ==========================Feature CSS Section End=================================*/
+/* ==========================6:Video CSS Section Start=================================*/
 .video-area {
     background-image: url(../img/video-bg.jpg);
     text-align: center;
@@ -257,16 +266,18 @@ color: #949597;
 	border: 1px solid#f16192;
 	border-radius: 50%;
 }
-.video-text h3 {
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 600;
-    margin-bottom: 30px;
+.video-text h2 {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-bottom: 30px;
 }
 .video-text p {
-    color: #949597
+    color: #fff;
 }
 /* ==========================Video CSS Section End=================================*/
+/* ==========================7:Skill CSS Section Start=================================*/
+
 .skill-man {
     margin-top: 30%;
 }
@@ -314,7 +325,8 @@ color: #949597;
 }
 
 
-/* ==========================progress CSS Section End=================================*/
+/* ==========================Skill CSS Section End=================================*/
+/* ==========================8:Team CSS Section Start=================================*/
 #team-id {
     background-color: #f4f5f7;
     padding: 2% 0;
@@ -363,7 +375,7 @@ color: #949597;
 	border-radius: 50%;
 }
 /*===================== Team Section End =========================*/
-/*===================== Client Section Start =========================*/
+/*===================== 9:Client Section Start =========================*/
 #client-id{
     background:url('../img/client_background_image.jpg');
     background-repeat:no-repeat;
@@ -372,7 +384,7 @@ color: #949597;
 .client{
     padding:6% 0;
 }
-.client h1{
+.client h2{
     
     font-size: 32px;
      line-height: 40px;
@@ -407,7 +419,7 @@ color: #949597;
 }
 
 /*===================== Client Section End =========================*/
-
+/*================= 10:blog Section Start ===============*/
 #blog-id{
    background-color: #f4f5f7; 
     padding-top:30px;
@@ -478,6 +490,7 @@ box-shadow: -1px 20px 32px 1px rgba(179,179,179,1);
 
 
 /*================= blog Section End ===============*/
+/*================= 11:Sub-Footer Section Start ===============*/
 #sub-footer{
    background-image: url(../img/footer-sub.png);
     background-repeat: no-repeat;
@@ -501,10 +514,11 @@ box-shadow: -1px 20px 32px 1px rgba(179,179,179,1);
     
 }
 .sub-footer-icon p a{ 
-   border-radius:30%;
+   border-radius:30px;
 }
 
 /*=============== Sub Footer End Css ===================*/
+/*================= Footer Section Start ===============*/
 #footer-id{
     background-color: #f4f5f7;
     padding: 40px 0 20px 0;
@@ -596,9 +610,10 @@ footer-widget-4  form{
     
 }
 
-.copy-right-con p{
+.copy-right-icon p{
     color: #949597;
     font-size: 14px;
     line-height: 23px;
     margin-top: 5px;
 }
+/*================= Footer Section End ===============*/
